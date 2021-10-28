@@ -1,0 +1,109 @@
+#app {
+    display: flex;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+#app .sidebar {
+    background-color: #F0942E;
+    transition: margin-left .5s ease-out;
+    min-width: 250px;
+}
+
+#app .sidebar-hide {
+    margin-left: -250px;
+}
+
+#app .sidebar .header {
+    background-color: #F0942E;
+    text-align: center;
+    padding: 32px 8px;
+}
+
+#app .sidebar .header .brand {
+    font-family: 'Segoe UI';
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    font-size: 32px;
+}
+
+#app .sidebar .header .brand span {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+
+#app .sidebar .body {
+    margin-top: 20px;
+}
+    
+#app .sidebar .body a {
+    text-decoration: none;
+}
+
+#app .sidebar .body .item {
+    color: #F5F6FA;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 18px 24px;
+    font-size: 14px;
+}
+
+#app .sidebar .body .item:hover {
+    background-color: #E57600;
+}
+    .active {
+        background-color: #E57600;
+    }
+
+.content {
+    width: 100%;
+    padding: 10px 20px;
+    background-color:whitesmoke;
+}
+
+.content .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .header .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 22px;
+}
+
+.content .header .hamburger div {
+    border: 3px solid #F7B85F;
+    margin-top: 6px;
+}
+    
+.content .header .logout {
+    font-family: Arial;
+    color: #95AFC0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.content .header .logout i{
+    margin-left: 4px;
+}
+
+.content .body {
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+.content .body .title {
+    color: #4B6584;
+    font-size: 22px;
+    }
+
+/* box tabel */
+.box{
+    width: 600px;
+    color: #E5E5E5;
+    background: rgba(229, 229, 229, 0.3)
+}
